@@ -22,6 +22,10 @@ header {
 
 header h1 {
   font-weight: bold;
+<<<<<<< HEAD
+=======
+  display: inline;
+>>>>>>> 8dd1e059378600fc174a43c1a1b23fae2af55459
   margin: 0;
   font-size: 36px;
   color: #fce138;
@@ -58,9 +62,12 @@ header nav ul li a {
 footer {
   background: #fce138;
   padding: 40px 35px;
+<<<<<<< HEAD
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+=======
+>>>>>>> 8dd1e059378600fc174a43c1a1b23fae2af55459
   width: 100%;
 }
 
@@ -90,6 +97,7 @@ section {
   background-image: url('../images/hero-bg.jpg');
   background-size: cover;
   background-position: center;
+<<<<<<< HEAD
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -109,6 +117,10 @@ section {
   font-style: italic;
   font-size: 55px;
   color: #fce138;
+=======
+  position: relative;
+  height: 600px;
+>>>>>>> 8dd1e059378600fc174a43c1a1b23fae2af55459
 }
 
 .hero-form {
@@ -150,6 +162,7 @@ section {
   font-size: 16px;
 } 
 /* HERO STYLES END */
+<<<<<<< HEAD
 
 
 /* SECTION TITLE STYLES START */
@@ -158,6 +171,31 @@ section {
   border-bottom: 3px solid;
   color: #024e76;
   padding-bottom: 20px;
+=======
+
+
+/* SECTION TITLE STYLES START */
+.section-title {
+  font-size: 55px;
+  display: inline-block;
+  padding: 0 100px 20px 100px;
+  border-bottom: 3px solid;
+  margin-bottom: 35px;
+  color: #024e76;
+}
+
+.primary-border {
+  border-color: #fce138;
+}
+
+.secondary-border {
+  border-color: #39a6b2;
+}
+/* SECTION TITLE STYLES END */
+
+/* WHAT WE DO STYLES */
+.intro {
+>>>>>>> 8dd1e059378600fc174a43c1a1b23fae2af55459
   text-align: center;
   margin: 0 auto 35px auto;
   width: 50%;
@@ -180,6 +218,15 @@ section {
   width: 80%;
   margin: 0 auto;
   font-size: 20px;
+<<<<<<< HEAD
+=======
+}
+/* WHAT YOU DO STYLES END */
+
+
+/* WHAT YOU DO STYLES START */
+.steps { 
+>>>>>>> 8dd1e059378600fc174a43c1a1b23fae2af55459
   text-align: center;
 }
 /* WHAT YOU DO STYLES END */
@@ -190,6 +237,7 @@ section {
   background: #fce138;
 }
 
+<<<<<<< HEAD
 .step {
   margin: 50px auto;
   padding-bottom: 50px;
@@ -200,6 +248,12 @@ section {
   align-items: center;
   justify-content: space-between;
 }
+=======
+.steps img {
+  width: 15%;
+  margin: 10px 0;
+} 
+>>>>>>> 8dd1e059378600fc174a43c1a1b23fae2af55459
 
 .step h3 {
   color: #024e76;
@@ -207,6 +261,7 @@ section {
   flex: 1 30%;
 }
 
+<<<<<<< HEAD
 .step-info {
   flex: 2 70%;
   display: flex;
@@ -230,8 +285,19 @@ section {
 .step-text p {
   color: #39a6b2;
   font-size: 18px;
+=======
+.steps span {
+  font-size: 38px;
 }
 
+.steps p {
+  color: #39a6b2;
+  font-size: 23px;
+>>>>>>> 8dd1e059378600fc174a43c1a1b23fae2af55459
+}
+/* WHAT YOU DO STYLES END */
+
+<<<<<<< HEAD
 .step-text h4 {
   font-size: 26px;
   line-height: 1.5;
@@ -240,6 +306,8 @@ section {
 
 /* WHAT YOU DO STYLES END */
 
+=======
+>>>>>>> 8dd1e059378600fc174a43c1a1b23fae2af55459
 /* MEET THE TRAINERS START */
 .trainers {
   width: 100%;
@@ -277,6 +345,10 @@ section {
 
 .trainer-bio p {
   font-size: 17px;
+<<<<<<< HEAD
+=======
+  line-height: 1.3;
+>>>>>>> 8dd1e059378600fc174a43c1a1b23fae2af55459
 }
 /* TRAINER STYLES END */
 
@@ -301,7 +373,12 @@ section {
 }
 
 .contact-info iframe {
+<<<<<<< HEAD
   height: 400px;
+=======
+  width: 400px;
+height: 400px;
+>>>>>>> 8dd1e059378600fc174a43c1a1b23fae2af55459
 }
 
 .contact-info div {
@@ -355,6 +432,7 @@ section {
 
 .text-right {
   text-align: right;
+<<<<<<< HEAD
 }
 
 .flex-row {
@@ -374,4 +452,6 @@ section {
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
  
+=======
+>>>>>>> 8dd1e059378600fc174a43c1a1b23fae2af55459
 }
