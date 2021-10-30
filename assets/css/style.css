@@ -11,7 +11,7 @@
 }
 
 body {
-  color: #39a6b2;
+  color: var(--tertiary-color);
   font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -20,7 +20,7 @@ body {
 
 header {
   padding: 20px 35px;
-  background-color: #39a6b2;
+  background-color: var(--tertiary-color);
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -36,13 +36,9 @@ header {
 
 header h1 {
   font-weight: bold;
-<<<<<<< HEAD
-=======
-  display: inline;
->>>>>>> 8dd1e059378600fc174a43c1a1b23fae2af55459
   margin: 0;
   font-size: 36px;
-  color: #fce138;
+  color: var(--primary-color);
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -85,12 +81,9 @@ header nav ul li a:hover {
 footer {
   background: var(--primary-color);
   padding: 40px 35px;
-<<<<<<< HEAD
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-=======
->>>>>>> 8dd1e059378600fc174a43c1a1b23fae2af55459
   width: 100%;
 }
 
@@ -119,11 +112,6 @@ section {
 .hero {
   background-image: url('../images/hero-bg.jpg');
   background-size: cover;
-<<<<<<< HEAD
-  background-position: center;
-<<<<<<< HEAD
-=======
->>>>>>> feature/aesthetics
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -144,23 +132,15 @@ section {
 .hero-cta h2 {
   font-style: italic;
   font-size: 55px;
-<<<<<<< HEAD
-  color: #fce138;
-=======
-  position: relative;
-  height: 600px;
->>>>>>> 8dd1e059378600fc174a43c1a1b23fae2af55459
-=======
   color: var(--primary-color);
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
->>>>>>> feature/aesthetics
 }
 
 .hero-form {
   border: 3px solid var(--secondary-color);
   background-color: rgba(255, 225, 56, 0.8);
   padding: 20px;
-  color: #024e76;
+  color: var(--secondary-color);
   width: 40%;
   margin: 3.5%;
   border-radius: 15px;
@@ -184,7 +164,7 @@ section {
   display: block;
   padding: 7px 15px;
   font-size: 16px;
-  color: #024e76;
+  color: var(--secondary-color);
   width: 100%;
   margin-bottom: 15px; 
   border-radius: 10px;
@@ -201,8 +181,8 @@ section {
 }
 
 .hero-form button {
-  color: #fce138;
-  background-color: #024e76;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
   border: none;
   padding: 10px 20px;
   font-size: 16px;
@@ -237,8 +217,8 @@ section {
 
 .radio-wrapper label::after {
   content: "";
-  width: 20px;
   height: 20px;
+  width: 20px;
   border-radius: 50%;
   background: var(--secondary-color);
   position: absolute;
@@ -269,7 +249,6 @@ section {
   content: "";
 }
 /* HERO STYLES END */
-<<<<<<< HEAD
 
 
 /* SECTION TITLE STYLES START */
@@ -278,31 +257,6 @@ section {
   border-bottom: 3px solid;
   color: var(--secondary-color);
   padding-bottom: 20px;
-=======
-
-
-/* SECTION TITLE STYLES START */
-.section-title {
-  font-size: 55px;
-  display: inline-block;
-  padding: 0 100px 20px 100px;
-  border-bottom: 3px solid;
-  margin-bottom: 35px;
-  color: #024e76;
-}
-
-.primary-border {
-  border-color: #fce138;
-}
-
-.secondary-border {
-  border-color: #39a6b2;
-}
-/* SECTION TITLE STYLES END */
-
-/* WHAT WE DO STYLES */
-.intro {
->>>>>>> 8dd1e059378600fc174a43c1a1b23fae2af55459
   text-align: center;
   margin: 0 auto 35px auto;
   width: 50%;
@@ -313,27 +267,17 @@ section {
 }
 
 .secondary-border {
-  border-color: Var(--tertiary-color);
+  border-color: var(--tertiary-color);
 }
 /* SECTION TITLE STYLES END */
 
 /* WHAT WE DO STYLES */
-
 .intro p {
   line-height: 1.7;
   color: var(--tertiary-color);
   width: 80%;
   margin: 0 auto;
   font-size: 20px;
-<<<<<<< HEAD
-=======
-}
-/* WHAT YOU DO STYLES END */
-
-
-/* WHAT YOU DO STYLES START */
-.steps { 
->>>>>>> 8dd1e059378600fc174a43c1a1b23fae2af55459
   text-align: center;
 }
 /* WHAT YOU DO STYLES END */
@@ -344,7 +288,6 @@ section {
   background: var(--primary-color);
 }
 
-<<<<<<< HEAD
 .step {
   margin: 50px auto;
   padding-bottom: 50px;
@@ -354,12 +297,6 @@ section {
   align-items: center;
   justify-content: space-between;
 }
-=======
-.steps img {
-  width: 15%;
-  margin: 10px 0;
-} 
->>>>>>> 8dd1e059378600fc174a43c1a1b23fae2af55459
 
 .step:last-child {
   border-bottom: none;
@@ -371,7 +308,6 @@ section {
   flex: 1 30%;
 }
 
-<<<<<<< HEAD
 .step-info {
   flex: 2 70%;
   display: flex;
@@ -393,21 +329,10 @@ section {
 }
 
 .step-text p {
-  color: #39a6b2;
+  color: var(--tertiary-color);
   font-size: 18px;
-=======
-.steps span {
-  font-size: 38px;
 }
 
-.steps p {
-  color: #39a6b2;
-  font-size: 23px;
->>>>>>> 8dd1e059378600fc174a43c1a1b23fae2af55459
-}
-/* WHAT YOU DO STYLES END */
-
-<<<<<<< HEAD
 .step-text h4 {
   font-size: 26px;
   line-height: 1.5;
@@ -415,8 +340,6 @@ section {
 }
 /* WHAT YOU DO STYLES END */
 
-=======
->>>>>>> 8dd1e059378600fc174a43c1a1b23fae2af55459
 /* MEET THE TRAINERS START */
 .trainers {
   width: 100%;
@@ -454,10 +377,6 @@ section {
 
 .trainer-bio p {
   font-size: 17px;
-<<<<<<< HEAD
-=======
-  line-height: 1.3;
->>>>>>> 8dd1e059378600fc174a43c1a1b23fae2af55459
 }
 /* TRAINER STYLES END */
 
@@ -482,12 +401,7 @@ section {
 }
 
 .contact-info iframe {
-<<<<<<< HEAD
   height: 400px;
-=======
-  width: 400px;
-height: 400px;
->>>>>>> 8dd1e059378600fc174a43c1a1b23fae2af55459
 }
 
 .contact-info div {
@@ -552,7 +466,6 @@ height: 400px;
 
 .text-right {
   text-align: right;
-<<<<<<< HEAD
 }
 
 .flex-row {
@@ -643,11 +556,6 @@ height: 400px;
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-<<<<<<< HEAD
- 
-=======
->>>>>>> 8dd1e059378600fc174a43c1a1b23fae2af55459
-=======
   .hero-form button {
     width: 100%;
   }
@@ -675,5 +583,5 @@ height: 400px;
   .contact-form {
     order: 3;
   }
->>>>>>> feature/aesthetics
 }
+
